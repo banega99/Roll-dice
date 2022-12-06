@@ -78,7 +78,7 @@ function bacanjeKocke() {
     rand2 = Math.ceil(Math.random()*6)
     poeniIgracDva += rand2
     randRot(rand2, kockaDva, 'rollingDva', 'Dva', igracDvaPrompt, poeniIgracDva)
-    if(bacanjeBr == 1) {
+    if(bacanjeBr == 6) {
         setTimeout(() => {
             zvukRunde.play()
             dugmeBacaj.style.display = 'none'
